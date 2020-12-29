@@ -1,0 +1,20 @@
+@media screen and (min-width: 930px) {
+  .main-tables-container {
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .main-currency-table .currency-table--title,
+  .main-comission-table .comission-table--title {
+    text-align: center;
+  }
+
+  .product-cards--container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .plans-container--slider {
+    justify-content: center;
+    overflow-x: auto;
+  }
+}
