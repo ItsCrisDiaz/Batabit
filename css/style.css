@@ -190,7 +190,7 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-green-1);
-  text-align: left;
+  text-align: center;
 }
 
 .main-comission-table .comission-table--title {
@@ -199,7 +199,7 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--secondary-blue);
-  text-align: left;
+  text-align: center;
 }
 
 .currency-table--container,
