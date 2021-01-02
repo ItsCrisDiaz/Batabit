@@ -16,6 +16,7 @@
   --black: #282623;
   --gray: #bababa;
   --gray-2: #757575;
+  --gray-3: #808080;
   --off-white: #faf8f7;
   --white: #ffffff;
 
@@ -562,8 +563,8 @@ main {
   vertical-align: text-bottom;
 }
 
-.plan-card--cta .orange-right-arrow {
-  background-image: url("../assets/icons/orange-right-arrow.svg");
+.plan-card--cta .green-right-arrow {
+  background-image: url("../assets/icons/green-right-arrow.svg");
 }
 
 .plan-card--cta .blue-right-arrow {
