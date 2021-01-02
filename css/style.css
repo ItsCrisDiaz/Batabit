@@ -7,18 +7,17 @@
 */
 :root {
   /* Colores */
-  --bitcoin-orange: #f7931a;
-  --soft-orange: #ffe9d5;
+  --bitcoin-green-1: #44a08d;
+  --bitcoin-green-2: #093637;
+  --soft-green: #a4dfd3;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --black: #282623;
   --gray: #bababa;
+  --gray-2: #757575;
   --off-white: #faf8f7;
   --white: #ffffff;
-  --bitcoin-green-1: #44a08d;
-  --bitcoin-green-2: #093637;
-  --soft-green: #a4dfd3;
 
   /* Fuentes */
   --font-1: "DM Sans", sans-serif;
@@ -163,7 +162,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: var(--gray-2);
 }
 
 .main-tables-container {
@@ -255,7 +254,7 @@ main {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
-  color: #757575;
+  color: var(--gray-2);
   text-align: center;
 }
 
@@ -424,7 +423,7 @@ main {
   width: 100%;
   min-width: 320;
   height: 50vh;
-  background-image: url("../assets/img/bitcoinbaby2x.jpg");
+  background-image: url("../assets/img/bitcoin.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -466,7 +465,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #757575;
+  color: var(--gray-2);
 }
 
 .plans-container--slider {
@@ -536,7 +535,7 @@ main {
   font-size: 1.2rem;
   font-family: var(--font-2);
   line-height: 1.5rem;
-  color: #757575;
+  color: var(--gray-2);
   margin-bottom: 16px;
 }
 
