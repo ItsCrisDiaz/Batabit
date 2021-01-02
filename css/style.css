@@ -16,6 +16,9 @@
   --gray: #bababa;
   --off-white: #faf8f7;
   --white: #ffffff;
+  --bitcoin-green-1: #44a08d;
+  --bitcoin-green-2: #093637;
+  --soft-green: #a4dfd3;
 
   /* Fuentes */
   --font-1: "DM Sans", sans-serif;
@@ -132,11 +135,11 @@ main {
 }
 
 .main-exchange-container .backgroundImg {
-  width: 200px;
+  width: 80%;
   height: 200px;
   margin: 0 auto 50px auto;
   background-image: url("../assets/img/bitcoin.svg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
