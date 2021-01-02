@@ -184,22 +184,21 @@ main {
   font-family: var(--font-2);
 }
 
-.main-currency-table .currency-table--title {
-  margin: 15px 0;
-  font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 2.3rem;
-  color: var(--bitcoin-green-1);
-  text-align: center;
-}
-
+.main-currency-table .currency-table--title,
 .main-comission-table .comission-table--title {
   margin: 15px 0;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
-  color: var(--secondary-blue);
   text-align: center;
+}
+
+.main-currency-table .currency-table--title {
+  color: var(--bitcoin-green-1);
+}
+
+.main-comission-table .comission-table--title {
+  color: var(--secondary-blue);
 }
 
 .currency-table--container,
