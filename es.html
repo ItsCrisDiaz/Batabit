@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)" />
     <link rel="icon" href="./assets/icons/batata.svg" type="image/gif" sizes="16x16">
     <title>Batatabit | Revolución en intercambio de criptomonedas</title>
   </head>
@@ -56,7 +56,7 @@
           </p>
         </div>
         <section class="main-tables-container">
-          <div class="main-currency-table">
+          <div class="slider1 main-currency-table">
             <p class="currency-table--title">Monedas</p>
             <div class="currency-table--container">
               <table>
@@ -86,7 +86,7 @@
               <p><b>Actualizado: </b>19 Julio 23:45</p>
             </div>
           </div>
-          <div class="main-comission-table">
+          <div class="slider1 main-comission-table">
             <p class="comission-table--title">Comisiones</p>
             <div class="comission-table--container">
               <table>
@@ -114,7 +114,9 @@
             <div class="comission-table--date">
               <p><b>Actualizado: </b>19 Julio 23:48</p>
             </div>
-          </div> 
+          </div>
+          <button class="slider-button slider-black slider-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+          <button class="slider-button slider-black slider-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
         </section>
       </section>
       <section class="main-product-detail">
@@ -155,7 +157,7 @@
           <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
         </div>
         <section class="plans-container--slider">
-          <article class="plans-container--card">
+          <article class="slider2 plans-container--card">
             <p class="recommended">Recomendado</p>
             <div class="plan-info-container">
               <h3 class="plan-card--title">Pago Anual</h3>
@@ -164,7 +166,7 @@
               <button class="plan-card--cta">Escoger este <span class="green-right-arrow"></span></button>
             </div>
           </article>
-          <article class="plans-container--card">
+          <article class="slider2 plans-container--card">
             <div class="plan-info-container">
               <h3 class="plan-card--title">Pago Semestral</h3>
               <p class="plan-card--price"><span>$</span>55</p>
@@ -172,7 +174,7 @@
               <button class="plan-card--cta plan-card--secondary-button">Escoger este <span class="blue-right-arrow"></span></button>
             </div>
           </article>
-          <article class="plans-container--card">
+          <article class="slider2 plans-container--card">
             <div class="plan-info-container">
               <h3 class="plan-card--title">Pago Mensual</h3>
               <p class="plan-card--price"><span>$</span>15</p>
@@ -180,6 +182,8 @@
               <button class="plan-card--cta plan-card--secondary-button">Escoger este <span class="blue-right-arrow"></span></button>
             </div>
           </article>
+          <button class="slider-button slider-black slider-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+          <button class="slider-button slider-black slider-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </section>
       </section>
     </main>
@@ -196,4 +200,5 @@
       </section>
     </footer>
   </body>
+  <script type="text/javascript" src="./slider.js"></script>
 </html>

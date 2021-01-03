@@ -9,7 +9,7 @@
   /* Colores */
   --bitcoin-green-1: #44a08d;
   --bitcoin-green-2: #093637;
-  --soft-green: #a4dfd3;
+  --soft-green: #bdf1e7;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
@@ -223,9 +223,11 @@ main {
 
 .main-tables-container {
   display: flex;
-  overflow-x: scroll;
+  position: relative;
+  justify-content: center;
+  /* overflow-x: scroll;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x proximity; */
 }
 
 .main-currency-table,
@@ -524,11 +526,47 @@ main {
 }
 
 .plans-container--slider {
+  position: relative;
   display: flex;
   height: 320px;
-  overflow-x: scroll;
+  justify-content: center;
+  /* overflow-x: scroll;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x proximity; */
+}
+
+.slider-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.slider-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+.slider-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.slider-black {
+  color: var(--off-white);
+  background-color: var(--black);
 }
 
 .plans-container--card {

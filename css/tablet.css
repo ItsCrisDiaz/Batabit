@@ -4,6 +4,10 @@
     overflow-x: auto;
   }
 
+  .slider-button {
+    display: none;
+  }
+
   .product-cards--container {
     display: grid;
     grid-template-columns: repeat(2, auto);
