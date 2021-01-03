@@ -62,7 +62,7 @@ header {
 header picture img {
   width: 150px;
   height: 24px;
-  margin-top: 60px;
+  margin-top: 40px;
   align-self: center;
 }
 
@@ -74,6 +74,61 @@ header picture img {
   margin-top: 40px;
   text-align: center;
   align-self: center;
+}
+
+.header--language-links {
+  display: flex;
+  justify-content: center;
+  height: 27px;
+  padding-top: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--off-white);
+}
+
+.header--language-links div,
+.header--language-links a {
+  padding: 0 10px;
+}
+
+.header--language-links a {
+  text-decoration: none;
+  color: var(--off-white);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.header--language-links p {
+  display: flex;
+  align-items: center;
+}
+
+.header--language-links a:visited,
+.header--language-links a:hover,
+.header--language-links a:active {
+  background-color: rgba(26, 154, 247, 0.5);
+}
+
+.header--english-language span,
+.header--spanish-language span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.header--english-language span {
+  background-image: url(../assets/icons/english-language.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header--spanish-language span {
+  background-image: url(../assets/icons/spanish-language.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header--title-container h1 {
