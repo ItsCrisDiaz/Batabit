@@ -1,0 +1,64 @@
+body {
+  background-color: var(--white);
+}
+
+.header-languages {
+  height: 100px;
+}
+
+.header-languages img {
+  margin-top: 0;
+  align-items: center;
+}
+
+.language-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  align-items: center;
+  margin: 0 auto;
+  height: calc(100vh - 100px - 150px - 60px);
+}
+
+.language-container--buttons {
+  display: flex;
+}
+
+.language-container h2 {
+  margin: 60px 0 15px;
+  width: 100%;
+  font-size: 1.8rem;
+  color: var(--bitcoin-green-1);
+  text-align: center;
+}
+
+.language-container a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.language--spanish,
+.language--english {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.language--spanish:hover,
+.language--english:hover {
+  background-color: rgba(164, 223, 211, 0.3);
+  cursor: pointer;
+}
+
+.language--spanish img,
+.language--english img {
+  width: 100%;
+  height: calc(45vh - 50px - 75px);
+  margin: 0 auto;
+}
+
+.language-container figcaption {
+  color: var(--bitcoin-green-1);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
